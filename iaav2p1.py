@@ -56,6 +56,7 @@ sns.pairplot(df[['fixed.acidity','volatile.acidity','citric.acid','residual.suga
 
 """**Questão4** Classifique os dados de validação."""
 
+#CLASSIFICAÇÃO
 classificador=classifier.predict(x_test)
 classificador
 
