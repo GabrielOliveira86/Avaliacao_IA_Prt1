@@ -92,11 +92,6 @@ print("Acuracia: ", resultado)
 
 """.
 
-.
-
-.
-"""
-
 # Load in the red wine data from the UCI ML website.
 df = pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv',sep=';')
 # Take a look
@@ -109,3 +104,4 @@ df.info()
 from sklearn.model_selection import train_test_split
 
 x_treino, x_teste, y_treino, y_teste=train_test_split(x,y,test_size=0.2)
+""".
